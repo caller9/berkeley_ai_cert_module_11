@@ -1,4 +1,4 @@
-# Module 5 Assignment 5.1 - Driver Coupon Acceptance
+# Module 11 Assignment 11.1 - Used Car Pricing
 
 ## Summary
 
@@ -6,7 +6,8 @@ This repository contains an analysis of a Kaggle provided used car dataset. The 
 
 * The lack of an automatic transmission has a larger than expected positive influence on the price of a vehicle.
 * Cars that aren't fueled by gasoline have a higher resale value. 
-* If you do want a gasoline engine, you will pay more for more cylinders.
+* Cars fueled by electricity have a bimodal distribution with a large segment around $40,000.
+* If customers do want a gasoline engine, you will get more money for more cylinders.
 
 ## Analysis
 
