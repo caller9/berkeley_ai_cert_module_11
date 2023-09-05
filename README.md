@@ -6,12 +6,12 @@ This repository contains an analysis of a Kaggle provided used car dataset. The 
 
 * The lack of an automatic transmission has a larger than expected positive influence on the price of a vehicle.
 * Cars that aren't fueled by gasoline have a higher resale value. 
-* Cars fueled by electricity have a bimodal distribution with a large segment around $40,000.
+* Cars fueled by electricity have a bimodal distribution with peaks around $15,000 and $38,000.
 * If customers do want a gasoline engine, you will get more money for more cylinders.
 
 ## Analysis
 
-The [Jupyter notebook](practical_applicaton_2.ipynb) contains the data analysis and recommendations. The notebook takes into consideration the effect of various used car features and transforms them as appropriate to ordinal or one-hot features.
+The [Jupyter notebook](practical_application_2.ipynb) contains the data analysis and recommendations. The notebook takes into consideration the effect of various used car features and transforms them as appropriate to ordinal or one-hot features.
 
 Cleaning the data to have sufficiently populated fields and removing nonsense values, like $0 sales, took the majority of the time. Adding a feature value of "other" is not as useful as fully enumerating the values. With a complete set of values, a field like the number of cylinders could be converted to ordinal.
 
